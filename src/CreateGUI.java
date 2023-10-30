@@ -1,8 +1,11 @@
+import javax.swing.*;
 
 public class CreateGUI {
     public static void main(String[] args) {
 
-        System.out.printf("Hello and welcome!");
+        JFrame frame = new JFrame();
+        frame.setSize(640,480);
+        frame.setVisible(true);
 
     }
 }
